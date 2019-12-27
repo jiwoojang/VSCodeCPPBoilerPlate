@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "preLaunchTask": "Build with Makefile",
+        "name": "C++ Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/main.out",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "linux": {
+          "externalConsole": false,
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "externalConsole": false,
+          "MIMode": "lldb"
+        },
+        "logging": {
+          "trace": false,
+          "traceResponse": false,
+          "engineLogging": false
+        }
+      }
+    ]
+  }
